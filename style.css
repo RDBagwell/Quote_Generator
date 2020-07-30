@@ -64,6 +64,23 @@ button{
     box-shadow: rgba(121, 121, 121, 0.65);
 }
 
+button:hover{
+    filter: brightness(110%);
+}
+
+button:active{
+    transform: translate(0, 0.3rem);
+    box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
+}
+
+.twitter-button:hover{
+    color: #38a1f3;
+}
+
+.fa-twitter{
+    font-size: 1.5rem;
+}
+
 @media screen and (max-width: 1000px){
     .quote-aurthor{
         margin: auto 5px;
